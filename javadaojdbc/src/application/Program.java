@@ -52,7 +52,7 @@ public class Program {
 		System.out.println("Update completed");
 		
 		System.out.println("\n=== TEST 6: seller delete ===");
-		System.out.println("Enter id for the deletion test: ");
+		System.out.printf("Enter id for the deletion test: ");
 		int objId = sc.nextInt();
 		sellerDao.deleteById(objId);
 		System.out.println("Deletion complete");

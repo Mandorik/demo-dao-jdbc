@@ -134,7 +134,7 @@ public class SellerDaoJDBC implements SellerDao {
 			
 			st.setInt(1, id);
 			rs = st.executeQuery();
-			// Quando executamos uma query, e vem o resultado no Resulset, ele aponta 
+			// Quando executamos uma query, e vem o resultado no Resultset, ele aponta 
 			// para a posição 0, e esta não contém objeto, só na 1:
 			if (rs.next()) { 
 				Department dep = instantiateDepartment(rs);
